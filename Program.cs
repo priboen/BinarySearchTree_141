@@ -12,6 +12,11 @@ namespace BinarySearchTree
         public string info;
         public string leftchild;
         public string rightchild;
+
+        public Node(string i, Node l, Node r)
+        {
+
+        }
     }
     internal class Program
     {
