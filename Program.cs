@@ -20,8 +20,15 @@ namespace BinarySearchTree
             rightchild = r;
         }
     }
-    internal class Program
+    //A node class consist of three things, the information, refrences to the right child, and references to the left child
+    class Program
     {
+        public Node ROOT;
+        public Program()
+        {
+            ROOT = null;
+
+        }
         static void Main(string[] args)
         {
         }
