@@ -73,13 +73,13 @@ namespace BinarySearchTree
         {
             if(ROOT == null)
             {
-                Console.WriteLine("Tree is Empty!");
+                Console.Write("Tree is Empty!");
                 return;
             }
             if (ptr != null)
             {
                 inorder(ptr.leftchild);
-                Console.WriteLine(ptr.info + " ");
+                Console.Write(ptr.info + " ");
                 inorder(ptr.rightchild);
             }
         }
@@ -87,12 +87,12 @@ namespace BinarySearchTree
         {
             if(ROOT == null)
             {
-                Console.WriteLine("Tree is Empty!");
+                Console.Write("Tree is Empty!");
                 return;
             }
             if (ptr != null)
             {
-                Console.WriteLine(ptr.info + " ");
+                Console.Write(ptr.info + " ");
                 preorder(ptr.leftchild);
                 preorder(ptr.rightchild);
             }
@@ -101,14 +101,14 @@ namespace BinarySearchTree
         {
             if (ROOT == null)
             {
-                Console.WriteLine("Tree is Empty!");
+                Console.Write("Tree is Empty!");
                 return;
             }
             if (ptr != null)
             {
                 preorder(ptr.leftchild);
                 preorder(ptr.rightchild);
-                Console.WriteLine(ptr.info + " ");
+                Console.Write(ptr.info + " ");
             }
         }
         static void Main(string[] args)
